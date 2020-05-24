@@ -1,5 +1,5 @@
 import React from 'react';
-import Main from './Main';
+import Main from '../Main';
 import { Col, Row, Button, Form, FormGroup, Label, Input } from 'reactstrap';
 
 const UserAddress = ({ values, onChange, nextStep, prevStep }) => {

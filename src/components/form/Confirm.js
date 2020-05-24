@@ -1,5 +1,5 @@
 import React from 'react';
-import Main from './Main';
+import Main from '../Main';
 import { Button, ListGroup, ListGroupItem } from 'reactstrap';
 
 const Confirm = ({ values, prevStep, nextStep }) => {

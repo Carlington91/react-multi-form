@@ -1,6 +1,6 @@
 import React from 'react';
 import { useHistory } from 'react-router-dom';
-import Main from './Main';
+import Main from '../Main';
 
 const Success = () => {
   let history = useHistory();

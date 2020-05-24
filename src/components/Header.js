@@ -21,7 +21,7 @@ const Header = (props) => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <Navbar color='light' light expand='md'>
+    <Navbar dark expand='md' style={{ background: '#3295A2' }}>
       <Container>
         <NavbarBrand href='/'>React Multi-Form</NavbarBrand>
         <NavbarToggler onClick={toggle} />

@@ -1,5 +1,5 @@
 import React from 'react';
-import Main from './Main';
+import Main from '../Main';
 import { Button, Form, FormGroup, Label, Input, Col, Row } from 'reactstrap';
 
 const UserDetails = ({ values, onChange, nextStep }) => {

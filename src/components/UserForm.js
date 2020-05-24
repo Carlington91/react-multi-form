@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import UserDetails from './UserDetails';
-import UserAddress from './UserAddress';
-import Confirm from './Confirm';
-import Success from './Success';
+import UserDetails from './form/UserDetails';
+import UserAddress from './form/UserAddress';
+import Confirm from './form/Confirm';
+import Success from './form/Success';
 
 const UserForm = () => {
   const [user, setUser] = useState({
